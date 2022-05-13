@@ -6,7 +6,7 @@ const productDetail = () => {
   const productid = router.query.productId; //getting product Id
   return (
     <div>
-      <h1>Product :{productid}</h1>
+      <h1>Product {productid}</h1>
     </div>
   );
 };
